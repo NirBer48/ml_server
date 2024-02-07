@@ -3,7 +3,7 @@ import random
 
 REQUESTS_TO_MAKE = 50000
 NEW_ORDERS_INTERVAL = 5
-URL = "http://10.100.11.131:3000/orders"
+URL = "http://localhost:3000/orders"
 
 FOOD_ITEMS = ['Broccoli', 'Stew', 'Chocolate Bar', 'Onion']
 ANIMAL_ITEMS = ['Dog', 'Cat', 'Tucan', 'Horse']
