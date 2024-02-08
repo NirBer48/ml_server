@@ -32,7 +32,6 @@ items_dict = {
 
 @app.route('/get-recommended-items', methods=['POST'])
 def getRecommendedItems():
-    print("flask recommend")
     data = json.loads(request.data)
     input = np.array([])
     index = 0
